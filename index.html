@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Search</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Trivia Search</h1>
+  </header>
+  <main>
+    <label for="category">Choose a category:</label>
+    <select id="category">
+      <option value="9">General Knowledge</option>
+      <option value="17">Science & Nature</option>
+      <option value="18">Science: Computers</option>
+      <option value="22">Geography</option>
+      <option value="23">History</option>
+      <option value="11">Film</option>
+      <!-- Add more categories as needed -->
+    </select>
+    <button onclick="fetchTrivia()">Search</button>
+    <div id="results"></div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
